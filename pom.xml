@@ -19,7 +19,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    
+    <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+	<dependency>
+	    <groupId>org.apache.tomcat.embed</groupId>
+	    <artifactId>tomcat-embed-jasper</artifactId>
+	    <version>10.1.4</version>
+	</dependency>
     <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -46,10 +51,10 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${org.springframework-version}</version>
-        </dependency>
-         
+        </dependency>   
   </dependencies>
   <build>
+  	
     <finalName>koi_gitTest</finalName>
   </build>
 </project>
