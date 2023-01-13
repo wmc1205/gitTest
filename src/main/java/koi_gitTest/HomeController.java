@@ -16,5 +16,11 @@ public class HomeController {
 		return "home";
 	}
 	//second commit - stached 파일 불러오는지?
+	
+	//작업 완료 안됐다. stash로 넣자.
+	public String bye() {
+		return "home";
+	}
+	
 
 }
