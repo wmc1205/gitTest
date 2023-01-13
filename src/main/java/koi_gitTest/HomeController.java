@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class HomeController {
 	
-
+	//test완료
+	//현재 : koi.mcw22
+	
 	//stach 테스트 !!!
 	
 	public String hello() {
