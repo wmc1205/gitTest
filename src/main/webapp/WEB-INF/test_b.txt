@@ -14,3 +14,7 @@ merge를 해보자
 merge 옵션 테스트 --ff
 
 aaa
+
+merge 옵션 테스트 --no-f
+
+bbb
