@@ -18,3 +18,9 @@ aaa
 merge 옵션 테스트 --no-f
 
 bbb
+
+merge 옵션 테스트 --squash
+
+1
+2
+3
